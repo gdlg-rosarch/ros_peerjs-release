@@ -1,0 +1,19 @@
+{
+  "name": "peer_bridge.js",
+  "version": "1.0.0",
+  "description": "",
+  "scripts": {},
+  "author": "Noel Martignoni",
+  "license": "BSD",
+  "devDependencies": {},
+  "dependencies": {
+    "roslib": "0.18.0",
+    "minimist": "1.2.0",
+    "BlobBuilder": "0.10.0",
+    "binary-pack": "1.0.2",
+    "xmlhttprequest": "1.8.0",
+    "electron-webrtc": "0.3.0",
+    "peerjs": "0.3.14",
+    "ws": "2.1.0"
+  }
+}

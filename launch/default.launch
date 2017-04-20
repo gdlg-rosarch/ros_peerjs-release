@@ -1,0 +1,12 @@
+<launch>
+
+    <arg name="peer_id" default="my_robot" />
+    <arg name="peer_server_port" default="9000" />
+    <arg name="peer_server_host" default="dev.oros.io"/>
+    <arg name="peer_server_key" default="peerjs" />
+
+    <node name="peer" pkg="ros_peerjs" type="ros_peerjs.js"
+               output="screen" required="true"
+               args="--dev --id $(arg peer_id) --port $(arg peer_server_port) \
+                     --host $(arg peer_server_host) --key $(arg peer_server_key)"/>
+</launch>
