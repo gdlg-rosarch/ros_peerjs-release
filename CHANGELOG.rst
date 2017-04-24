@@ -2,6 +2,11 @@
 Changelog for package ros_peerjs
 ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
 
+0.1.2 (2017-04-24)
+------------------
+* add node_modules
+* Contributors: Gérald Lelong
+
 0.1.1 (2017-04-20)
 ------------------
 * add dependencies
