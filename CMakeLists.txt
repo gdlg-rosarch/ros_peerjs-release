@@ -148,7 +148,7 @@ install(PROGRAMS
 
 install(DIRECTORY
   node_modules
- DESTINATION ${CATKIN_PACKAGE_BIN_DESTINATION}
+  DESTINATION ${CATKIN_PACKAGE_BIN_DESTINATION}
 )
 
 ## Mark executables and/or libraries for installation
