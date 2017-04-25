@@ -2,6 +2,11 @@
 Changelog for package ros_peerjs
 ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
 
+0.1.7 (2017-04-25)
+------------------
+* add git as build dependency
+* Contributors: Gérald Lelong
+
 0.1.6 (2017-04-25)
 ------------------
 * remove node_modules
