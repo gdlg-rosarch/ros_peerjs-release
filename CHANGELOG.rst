@@ -2,6 +2,11 @@
 Changelog for package ros_peerjs
 ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
 
+0.1.3 (2017-04-25)
+------------------
+* install js nodes to share directory to pass build
+* Contributors: Gérald Lelong
+
 0.1.2 (2017-04-24)
 ------------------
 * add node_modules
