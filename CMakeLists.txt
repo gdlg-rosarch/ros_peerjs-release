@@ -143,12 +143,12 @@ catkin_package(
 ## in contrast to setup.py, you can choose the destination
 install(PROGRAMS
   scripts/ros_peerjs.js
-  DESTINATION ${CATKIN_PACKAGE_BIN_DESTINATION}
+  DESTINATION ${CATKIN_PACKAGE_SHARE_DESTINATION}
 )
 
 install(DIRECTORY
   node_modules
-  DESTINATION ${CATKIN_PACKAGE_BIN_DESTINATION}
+  DESTINATION ${CATKIN_PACKAGE_SHARE_DESTINATION}
 )
 
 ## Mark executables and/or libraries for installation
