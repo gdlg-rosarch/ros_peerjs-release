@@ -132,6 +132,15 @@ catkin_package(
 #   ${catkin_LIBRARIES}
 # )
 
+add_custom_target(
+  node_modules ALL)
+
+add_custom_command(
+  TARGET node_modules
+  COMMAND npm install
+  WORKING_DIRECTORY ${CMAKE_SOURCE_DIR}
+)
+
 #############
 ## Install ##
 #############
