@@ -1,0 +1,12 @@
+Source: ros-kinetic-ros-peerjs
+Section: misc
+Priority: extra
+Maintainer: Easymov Robotics <dev@easymov.fr>
+Build-Depends: debhelper (>= 9.0.0), ros-kinetic-catkin
+Homepage: 
+Standards-Version: 3.9.2
+
+Package: ros-kinetic-ros-peerjs
+Architecture: any
+Depends: ${shlibs:Depends}, ${misc:Depends}, libasound2-dev, libgconf-2-4, libgtk2.0-dev, libnss3-dev, libxss1, libxtst-dev, nodejs, xvfb
+Description: ROS Peerjs package
