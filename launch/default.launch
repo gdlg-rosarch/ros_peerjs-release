@@ -1,9 +1,9 @@
 <launch>
 
-    <arg name="peer_id" default="my_robot" />
+    <arg name="peer_id" default="my_robot"/>
     <arg name="peer_server_port" default="9000" />
     <arg name="peer_server_host" default="dev.oros.io"/>
-    <arg name="peer_server_key" default="peerjs" />
+    <arg name="peer_server_key" default="peerjs"/>
 
     <node name="peer" pkg="ros_peerjs" type="ros_peerjs.js"
                output="screen" required="true"
