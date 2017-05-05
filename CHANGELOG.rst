@@ -2,6 +2,12 @@
 Changelog for package ros_peerjs
 ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
 
+0.1.8 (2017-05-05)
+------------------
+* downgrade ws version to match xenial nodejs version
+* add executable permissions
+* Contributors: Gérald Lelong
+
 0.1.7 (2017-04-25)
 ------------------
 * add git as build dependency
