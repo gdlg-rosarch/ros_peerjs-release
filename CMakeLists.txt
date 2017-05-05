@@ -152,6 +152,9 @@ add_custom_command(
 ## in contrast to setup.py, you can choose the destination
 install(PROGRAMS
   scripts/ros_peerjs.js
+  PERMISSIONS OWNER_EXECUTE OWNER_WRITE OWNER_READ
+              GROUP_EXECUTE GROUP_READ
+              WORLD_EXECUTE WORLD_READ
   DESTINATION ${CATKIN_PACKAGE_SHARE_DESTINATION}
 )
 
